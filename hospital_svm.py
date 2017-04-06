@@ -39,6 +39,13 @@ for line in data:
         print(line)
         rand_data.append(line)
 print(len(rand_data))
-"""
+
+s=" "
 for i in rand_data:
-    print(i)
+    temp=s.join(i)
+    print(temp)"""
+disease=[]
+for i in rand_data:
+    x=i[1]
+    disease.append(x)
+print("number of different diseases: ",len(set(disease)))
